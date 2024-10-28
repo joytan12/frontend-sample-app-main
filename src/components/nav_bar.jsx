@@ -19,25 +19,25 @@ export const NavBar = () => {
         className={navLinkClass}
         to='/controles'
       >
-        controles
+        Controles
       </NavLink>
       <NavLink
         className={navLinkClass}
         to='/tratamiento'
       >
-        tratamiento
+        Tratamiento
       </NavLink>
       <NavLink
         className={navLinkClass}
         to='/informe'
       >
-        informe
+        Informe
       </NavLink>
       <NavLink
         className={navLinkClass}
         to='/contacto'
       >
-        contacto
+        Contacto
       </NavLink>
     </nav>
   )
