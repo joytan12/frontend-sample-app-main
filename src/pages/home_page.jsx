@@ -6,7 +6,7 @@ export const HomePage = () => {
     <>
       <div class ="titulo-central">
         <p>Bienvenido a MyChildStats</p>
-      </div>z
+      </div>
     </>
   )
 }
