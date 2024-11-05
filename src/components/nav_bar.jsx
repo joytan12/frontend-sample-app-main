@@ -13,31 +13,19 @@ export const NavBar = () => {
         className={navLinkClass}
         to='/'
       >
+        Login
+      </NavLink>
+      <NavLink
+        className={navLinkClass}
+        to='/Registro'
+      >
+        Registro
+      </NavLink>
+      <NavLink
+        className={navLinkClass}
+        to='/Inicio'
+      >
         Inicio
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/controles'
-      >
-        controles
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/tratamiento'
-      >
-        tratamiento
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/informe'
-      >
-        informe
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/contacto'
-      >
-        contacto
       </NavLink>
     </nav>
   )

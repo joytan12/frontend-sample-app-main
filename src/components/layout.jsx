@@ -1,10 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
+import LoginPage from '../pages/login_page'
+import SignupPage from '../pages/signup_page'
 import HomePage from '../pages/home_page'
-import LightbulbPage from '../pages/lightbulb_page'
-import Contacto from '../pages/contacto'
-
 import NavBar from '../components/nav_bar'
 
 const Layout = () => {
@@ -15,11 +13,9 @@ const Layout = () => {
         <NavBar />
         <div className='layout__page'>
           <Routes>
-            <Route path='/' element={<HomePage />} />
-            <Route path='/controles' element={<LightbulbPage />} />
-            <Route path='/tratamiento' element={<LightbulbPage />} />
-            <Route path='/informe' element={<LightbulbPage />} />
-            <Route path='/contacto' element={<Contacto />} />
+            <Route path='/' element={<LoginPage />} />
+            <Route path='/Registro' element={<SignupPage />} />
+            <Route path='/Inicio' element={<HomePage />} />
           </Routes>
         </div>
       </div>
