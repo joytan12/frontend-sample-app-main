@@ -9,15 +9,20 @@ function SignupPage() {
         navigate('/');
     };
     return (
-        <div>
-            <h2>Registrarse</h2>
-            <form>
-                <input type="text" placeholder="Usuario" />
-                <input type="password" placeholder="Contraseña" />
-                <input type="password" placeholder="Confirmar contraseña" />
-                <button onClick={handleClick}>Registrarse</button>
-            </form>
-            <p>¿Ya tienes cuenta? <Link to="/">Inicia sesión aquí</Link></p>
+        <div class="signup-body">
+            <div class="signup-box">
+                <h2>Registrarse</h2>
+                <form class="signup-form">
+                    <label>Usuario</label>
+                    <input class="signup-elemento" type="text" placeholder="Usuario" />
+                    <label>Contraseña</label>
+                    <input class="signup-elemento" type="password" placeholder="Contraseña" />
+                    <label>Confirmar Contraseña</label>
+                    <input class="signup-elemento" type="password" placeholder="Confirmar contraseña" />
+                    <button class="signup-boton" onClick={handleClick}>Registrarse</button>
+                </form>
+                <p>¿Ya tienes cuenta? <Link to="/">Inicia sesión aquí</Link></p>
+            </div>
         </div>
     );
 }
