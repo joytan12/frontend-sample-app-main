@@ -1,14 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function LoginPage() {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/Inicio');
+    };
+
     return (
         <div>
-            <h2>Login</h2>
+            <h2>Iniciar Sesión</h2>
             <form>
                 <input type="text" placeholder="Usuario" />
                 <input type="password" placeholder="Contraseña" />
-                <button type="submit">Iniciar sesión</button>
+                <button onClick={handleClick}>Iniciar sesión</button>
             </form>
             <p>¿No tienes cuenta? <Link to="/Registro">Regístrate aquí</Link></p>
         </div>

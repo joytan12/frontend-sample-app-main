@@ -1,15 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function SignupPage() {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/');
+    };
     return (
         <div>
-            <h2>Signup</h2>
+            <h2>Registrarse</h2>
             <form>
                 <input type="text" placeholder="Usuario" />
                 <input type="password" placeholder="Contraseña" />
                 <input type="password" placeholder="Confirmar contraseña" />
-                <button type="submit">Registrarse</button>
+                <button onClick={handleClick}>Registrarse</button>
             </form>
             <p>¿Ya tienes cuenta? <Link to="/">Inicia sesión aquí</Link></p>
         </div>

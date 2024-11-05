@@ -13,13 +13,13 @@ export const NavBar = () => {
         className={navLinkClass}
         to='/'
       >
-        Login
+        Iniciar Sesión
       </NavLink>
       <NavLink
         className={navLinkClass}
         to='/Registro'
       >
-        Registro
+        Registrarse
       </NavLink>
       <NavLink
         className={navLinkClass}
@@ -30,5 +30,4 @@ export const NavBar = () => {
     </nav>
   )
 }
- 
 export default NavBar
