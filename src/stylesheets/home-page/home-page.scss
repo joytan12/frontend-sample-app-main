@@ -1,8 +1,61 @@
-.titulo-central{
-    width: 100%;
-    text-align: center;
+.titulo-central {
+  text-align: center;
+  margin-top: 20px;
 }
+
+.titulo-central h1 {
+  font-size: 2.5em;
+  color: #4A90E2;
+}
+
 .titulo-central p {
-    font-size: 3vw;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.funcionalidades {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.funcionalidades h2 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.funcionalidad-item {
+  margin: 10px 0;
+}
+
+.funcionalidad-item h3 {
+  font-size: 1.5em;
+  color: #4A90E2;
+}
+
+.acceso-rapido {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.acceso-rapido button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #4A90E2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.acceso-rapido button:hover {
+  background-color: #357ABD;
+}
+
+.mensaje-motivador {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin-top: 40px;
+  font-size: 1.2em;
 }
