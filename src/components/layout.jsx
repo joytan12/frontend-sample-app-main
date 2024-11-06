@@ -18,6 +18,8 @@ import Psicomotor from '../pages/psicomotor'
         <div className='layout__page'>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/Registro' element={<LoginPage />} />
+            <Route path='/Inicio' element={<SignupPage />} />
             <Route path='/psicomotor' element={<Psicomotor />} />
             <Route path='/altura' element={<Altura />} />
             <Route path='/informe' element={<Altura />} />
