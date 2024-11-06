@@ -25,9 +25,8 @@ export const HomePage = () => {
 
       <div className="acceso-rapido">
         <h2>Acceso Rápido</h2>
-        <button onClick={() => window.location.href = '/peso'}>Ver Gráficos de Peso</button>
         <button onClick={() => window.location.href = '/altura'}>Ver Gráficos de Altura</button>
-        <button onClick={() => window.location.href = '/informe'}>Ver Informe</button>
+        <button onClick={() => window.location.href = '/psicomotor'}>Ver Avance Psicomotor</button>
       </div>
 
       <div className="mensaje-motivador">

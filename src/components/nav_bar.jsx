@@ -31,25 +31,13 @@ export const NavBar = () => {
         className={navLinkClass}
         to='/psicomotor'
       >
-        psicomotor
+        Avances Psicomotor
       </NavLink>
       <NavLink
         className={navLinkClass}
         to='/altura'
       >
-        altura
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/informe'
-      >
-        informe
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/contacto'
-      >
-        contacto
+        Gráficos de altura
       </NavLink>
     </nav>
   )
