@@ -35,7 +35,7 @@ const data2 = {
 
   return (
     <div>
-      <h1>Grafico de crecimiento</h1>
+      <h1>Gráfico de crecimiento</h1>
       <p>
         Los percentiles en un gráfico de crecimiento infantil indican cómo se compara el crecimiento de un niño
         con respecto a una población de referencia de la misma edad y género. Por ejemplo, si un niño está en el

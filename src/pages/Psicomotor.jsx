@@ -1,10 +1,11 @@
 import React from 'react';
 import MilestonesChart from './MilestonesChart';
 
-function Pcicomotor() {
+function Psicomotor() {
     return (
         <div>
             <MilestonesChart />
+            <div>
             <table border="1">
                 <tr>
                     <th>Desarrollo Psicomotor</th>
@@ -35,9 +36,10 @@ function Pcicomotor() {
                     <td>6</td>
                 </tr>
             </table>
+            </div>
         </div>
         
     );
 }
 
-export default Pcicomotor;
+export default Psicomotor;

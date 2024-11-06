@@ -27,7 +27,6 @@ export const NavBar = () => {
       >
         Inicio
       </NavLink>
-<<<<<<< HEAD
       <NavLink
         className={navLinkClass}
         to='/psicomotor'
@@ -52,8 +51,6 @@ export const NavBar = () => {
       >
         contacto
       </NavLink>
-=======
->>>>>>> 5a535008f553f607d86a5923a5bf7f526c6e1732
     </nav>
   )
 }
