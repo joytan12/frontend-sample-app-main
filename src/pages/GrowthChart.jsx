@@ -61,14 +61,14 @@ const GrowthChart = ({ data }) => {
       },
       title: {
         display: true,
-        text: 'Growth Chart (Length vs Age)',
+        text: 'Gráfico de crecimiento (Altura vs Edad)',
       },
     },
     scales: {
       x: {
         title: {
           display: true,
-          text: 'Age (completed weeks or months)',
+          text: 'Edad (en meses)',
         },
       },
       y: {

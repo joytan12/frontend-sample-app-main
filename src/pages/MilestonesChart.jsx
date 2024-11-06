@@ -9,23 +9,23 @@ const MilestonesChart = () => {
   // Datos de los hitos motores con su promedio, mínimo y máximo
   const data = {
     labels: [
-      'caminar solo',
-      'de pie solo',
-      'caminar con asistencia',
-      'arrastrandose con las manos y las rodillas',
-      'estar de pie con asistencia',
-      'sentado sin apoyo'
+      'Caminar solo',
+      'De pie solo',
+      'Caminar con asistencia',
+      'Arrastrandose con las manos y las rodillas',
+      'Estar de pie con asistencia',
+      'Sentado sin apoyo'
     ],
     datasets: [
       {
-        label: 'rango', // Representa el rango sombreado entre mínimo y máximo
+        label: 'Rango', // Representa el rango sombreado entre mínimo y máximo
         data: [15, 11, 10, 8, 7, 6],
         backgroundColor: 'rgba(136, 132, 216, 0.2)',
         barThickness: 20,
         borderRadius: 5,
       },
       {
-        label: 'min años',
+        label: 'Min años',
         type: 'scatter',
         data: [8, 8, 6, 5, 4, 4], // Valores mínimos
         pointBackgroundColor: 'rgba(136, 132, 216, 0.6)',
@@ -41,7 +41,7 @@ const MilestonesChart = () => {
         showLine: false,
       },
       {
-        label: 'edad a la que lo logro', // Punto central para el promedio
+        label: 'Edad a la que lo logró', // Punto central para el promedio
         type: 'scatter',
         data: [15, 11, 10, 8, 7, 6], // Edad promedio
         pointBackgroundColor: '#0000ff',
@@ -69,13 +69,13 @@ const MilestonesChart = () => {
         max: 21,
         title: {
           display: true,
-          text: 'edad en meses'
+          text: 'Edad en meses'
         }
       },
       y: {
         title: {
           display: true,
-          text: 'Psicomotor'
+          text: 'Avance Psicomotor'
         }
       }
     }
