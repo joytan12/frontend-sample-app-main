@@ -1,0 +1,29 @@
+.login-body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    height: 80vh;
+    margin: 0px;
+}
+.login-box{
+    background-color:rgb(143, 194, 253);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 270px;
+    width: 340px;
+}
+.login-form{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.login-elemento{
+    margin-bottom:10px;
+    width: 300px;
+}
+.login-boton{
+    width: 100px;
+}

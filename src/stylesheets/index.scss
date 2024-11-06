@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@import './layout/index.scss';
+@import './login-page/index.scss';
+@import './signup-page/index.scss';
+@import './home-page/index.scss';
 @import './nav-bar/index.scss';
-@import './lightbulb-page/index.scss';
-@import './contacto/index.scss';
+@import './layout/index.scss';
 
 html, body {
   padding: 0;
