@@ -1,6 +1,6 @@
 .team-section {
     text-align: center;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .team-section h1 {
@@ -18,6 +18,6 @@
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
     gap: 1.5rem;
 }

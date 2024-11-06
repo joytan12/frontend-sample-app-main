@@ -17,15 +17,15 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/controles'
+        to='/psicomotor'
       >
-        controles
+        psicomotor
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/tratamiento'
+        to='/altura'
       >
-        tratamiento
+        altura
       </NavLink>
       <NavLink
         className={navLinkClass}

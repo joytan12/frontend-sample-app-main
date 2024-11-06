@@ -2,10 +2,11 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from '../pages/home_page'
-import LightbulbPage from '../pages/lightbulb_page'
 import Contacto from '../pages/contacto'
+import Psicomotor from '../pages/Psicomotor'
 
 import NavBar from '../components/nav_bar'
+import Altura from '../pages/Altura'
 
 const Layout = () => {
   return (
@@ -16,9 +17,9 @@ const Layout = () => {
         <div className='layout__page'>
           <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/controles' element={<LightbulbPage />} />
-            <Route path='/tratamiento' element={<LightbulbPage />} />
-            <Route path='/informe' element={<LightbulbPage />} />
+            <Route path='/psicomotor' element={<Psicomotor />} />
+            <Route path='/altura' element={<Altura />} />
+            <Route path='/informe' element={<Altura />} />
             <Route path='/contacto' element={<Contacto />} />
           </Routes>
         </div>
