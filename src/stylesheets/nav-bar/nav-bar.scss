@@ -3,3 +3,13 @@
   background-color: #ccc;
   padding-left: 20px;
 }
+
+
+.nav-bar__logo {
+  margin-right: 1rem; /* Espacio entre el logo y los enlaces */
+}
+
+.nav-bar__logo-img {
+  height: 80px; /* Ajusta la altura del logo */
+  width: auto; /* Mantiene la proporción de la imagen */
+}
