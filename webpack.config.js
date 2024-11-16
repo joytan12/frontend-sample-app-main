@@ -13,7 +13,7 @@ module.exports = (_, argv) => ({
       filename: '[name].[contenthash].css'
     }),
     new HtmlWebpackPlugin({
-      title: 'MyChildStats'
+      title: 'Interfaz energética'
     })
   ],
   resolve: {

@@ -1,16 +1,11 @@
 .nav-bar__link {
   display: inline-block;
-  padding: 8px 20px 8px 20px;
-  color: black;
-  text-decoration: none;
-  transition: transform 0.3s ease;
+  margin-right: 15px;
+  padding: 8px;
+  color: rgb(4, 100, 253);
 
   &--active {
     background: #222;
     color: white;
   }
-}
-
-.nav-bar__link:hover{
-  background-color: rgb(165, 165, 165);
 }

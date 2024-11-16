@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/image.png'
 
 export const NavBar = () => {
   const navLinkClass = ({ isActive }) => {
@@ -10,42 +9,20 @@ export const NavBar = () => {
   }
   return (
     <nav className='nav-bar'>
-      {/* Logo de la barra de navegación */}
-      <NavLink to='/Inicio' className='nav-bar__logo'>
-        <img src={logo} alt='Logo' className='nav-bar__logo-img' />
-      </NavLink>
-      
       <NavLink
         className={navLinkClass}
         to='/'
-      >
-        Iniciar Sesión
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/Registro'
-      >
-        Registrarse
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/Inicio'
       >
         Inicio
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/psicomotor'
+        to='/lightbulb'
       >
-        Avances Psicomotor
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/altura'
-      >
-        Gráficos de altura
+        Ampolleta
       </NavLink>
     </nav>
   )
 }
+ 
 export default NavBar
