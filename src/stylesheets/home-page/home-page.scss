@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.home-page__content {
+  color: #333; // Color del texto
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; // Espacio entre los botones
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: $primary-color; // Azul claro como fondo del botón
+  color: white; // Texto blanco
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $button-hover-color; // Más oscuro al pasar el mouse
+  }
+}
+

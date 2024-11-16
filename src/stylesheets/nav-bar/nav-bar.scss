@@ -1,5 +1,17 @@
 .nav-bar {
   display: flex;
-  background-color: #ccc;
-  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #5dadcc;
+  color: white;
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 100%;
+    width: 100px;
+    display: block;
+  }
 }

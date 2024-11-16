@@ -1,28 +1,15 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import '../stylesheets/nav-bar/nav-bar.scss';
+import logo from '../assets/logo.png'
 
-export const NavBar = () => {
-  const navLinkClass = ({ isActive }) => {
-    const classes = ['nav-bar__link']
-    if (isActive) classes.push('nav-bar__link--active')
-    return classes.join(' ')
-  }
+const NavBar = () => {
   return (
-    <nav className='nav-bar'>
-      <NavLink
-        className={navLinkClass}
-        to='/'
-      >
-        Inicio
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/lightbulb'
-      >
-        Ampolleta
-      </NavLink>
+    <nav className="nav-bar">
+      <div className="nav-bar__logo">
+        <img src={logo} alt="Logo" className='nav-bar__logo'/>
+      </div>
     </nav>
-  )
-}
- 
-export default NavBar
+  );
+};
+
+export default NavBar;
