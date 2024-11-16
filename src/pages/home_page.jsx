@@ -7,11 +7,13 @@ export const HomePage = () => {
     <div
       className="home-page"
       style={{
+        margin: '0px',
+        padding: '60px',
         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        height: '75vh', // Ajusta según sea necesario
+        height: '70vh', // Ajusta según sea necesario
       }}
     >
       <h1>Lorem Ipsum</h1>
@@ -20,8 +22,8 @@ export const HomePage = () => {
       <h2> ~~~~~~~~~~~</h2>
       <h2> ~~~~~~~~~~~</h2>
       <div className="buttons">
-        <button className='button'>Botón 1</button>
-        <button className='button'>Botón 2</button>
+        <button className='button'>Avance Psicomotor</button>
+        <button className='button'>Gráficos de Altura</button>
       </div>
     </div>
   )
