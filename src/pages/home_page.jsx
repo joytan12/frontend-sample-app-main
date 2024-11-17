@@ -11,16 +11,19 @@ export const HomePage = () => {
         padding: '60px',
         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'center top -110px',
         backgroundRepeat: 'no-repeat',
-        height: '70vh', // Ajusta según sea necesario
+        overflow: 'hidden',
+        height: '70vh'
       }}
     >
-      <h1>Lorem Ipsum</h1>
-      <h2>Relleno ~~~~~~~~~~~</h2>
-      <h2> ~~~~~~~~~~~</h2>
-      <h2> ~~~~~~~~~~~</h2>
-      <h2> ~~~~~~~~~~~</h2>
+      <h1 class="titulo">Seguimiento del Desarrollo Infantil</h1>
+      <h2 class="texto">
+      Bienvenido a nuestra plataforma, diseñada para acompañarte en cada etapa del crecimiento de tu hijo.
+      Proporcionamos herramientas visuales y prácticas que te ayudarán a entender su desarrollo y a tomar decisiones informadas 
+      para su bienestar.<br></br>
+      ¡Descubre el poder de cuidar y crecer juntos!
+      </h2>
       <div className="buttons">
         <button className='button'>Avance Psicomotor</button>
         <button className='button'>Gráficos de Altura</button>

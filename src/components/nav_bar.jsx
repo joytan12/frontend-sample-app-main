@@ -13,6 +13,9 @@ const NavBar = () => {
       <div className="nav-bar__logo">
         <img src={logo} alt="Logo" />
       </div>
+      <div className="nav-bar__title">
+        <h1>Creciendo Juntos</h1>
+      </div>
       {!isHomePage && (
         <a href="# ">
           <div className="nav-bar__image">
