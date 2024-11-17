@@ -7,11 +7,31 @@
   color: white;
 
   &__logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100%;
-    width: 100px;
-    display: block;
+    width: 70px;
+    height: 70px;
+    overflow: hidden; 
+    background-color: #fff;
+  }
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 10%; 
+  }
+  &__image:hover {
+    background-color: #2d8bb0; 
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
   }
 }

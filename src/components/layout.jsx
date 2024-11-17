@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from '../pages/home_page'
-
 import NavBar from '../components/nav_bar'
 
 const Layout = () => {
