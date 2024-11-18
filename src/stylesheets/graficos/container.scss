@@ -19,7 +19,7 @@
 
 .lado-derecho {
   display: grid;
-  grid-template-rows: 1fr 1fr; /* Divide el lado derecho en dos filas iguales */
+  grid-template-rows: 0.1fr 0.1fr; /* Divide el lado derecho en dos filas iguales */
   grid-column: 2; /* Segunda columna */
 }
 
@@ -33,10 +33,10 @@
 
 .parrafo {
   // background-color: #f8d7fb; /* Fondo para visualizar */
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80%;
 }
 
 .dropdown {
