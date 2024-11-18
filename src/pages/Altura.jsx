@@ -150,7 +150,7 @@ const data2 = {
           <option value="2">Laura</option>
           </select>
         </div>
-      <h1 class="titulo_grafico">Grafico de altura</h1>
+      <h1 class="titulo_grafico">Gráficos de Altura</h1>
       <div class = "grafico">
       {selectedChild === 1 ? (
         <GrowthChart data={data1} />
