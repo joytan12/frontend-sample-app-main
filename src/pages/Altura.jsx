@@ -139,12 +139,19 @@ const data2 = {
   return (
 
     <div class="contenedor">
+        <div className="dropdown">
+          <label htmlFor="childSelector">Selecciona un niño:</label>
+          <select
+          id="childSelector"
+          value={selectedChild} // Vinculamos el estado
+          onChange={(event) => setSelectedChild(Number(event.target.value))}
+          >
+          <option value="1">Juan</option>
+          <option value="2">Laura</option>
+          </select>
+        </div>
       <h1>Grafico de altura</h1>
       <div class = "grafico">
-      <div>
-        <button onClick={() => handleChildSelection(1)}>juan</button>
-        <button onClick={() => handleChildSelection(2)}>laura</button>
-      </div>
       {selectedChild === 1 ? (
         <GrowthChart data={data1} />
       ) : (
@@ -165,7 +172,7 @@ const data2 = {
         </p>
         </div>
         <div class="parrafo">
-          <h3>Tabla de valoras de nuestro hijo</h3>
+          <h3>Tabla de valores de nuestro hijo</h3>
           {selectedChild === 1 ? (
           <TablaValores1 />
           ) : (

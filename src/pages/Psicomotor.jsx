@@ -89,9 +89,13 @@ function Psicomotor() {
         <div class="contenedor">
             <div className="dropdown">
             <label htmlFor="childSelector">Selecciona un niño:</label>
-            <select id="childSelector" onChange={handleChildSelection}>
-                <option value="1">Juan</option>
-                <option value="2">Laura</option>
+            <select
+            id="childSelector"
+            value={selectedChild} // Vinculamos el estado
+            onChange={(event) => setSelectedChild(Number(event.target.value))}
+            >
+            <option value="1">Juan</option>
+            <option value="2">Laura</option>
             </select>
             </div>
             <div class = "grafico">
