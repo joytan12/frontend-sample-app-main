@@ -139,6 +139,7 @@ const data2 = {
   return (
 
     <div class="contenedor">
+      <h1>Grafico de altura</h1>
       <div class = "grafico">
       <div>
         <button onClick={() => handleChildSelection(1)}>juan</button>
@@ -152,15 +153,16 @@ const data2 = {
       </div>
       <div class="lado-derecho">
         <div class="ejemplo">
-          <p>
-            Los percentiles en un gráfico de crecimiento infantil indican cómo se compara el crecimiento de un niño
-            con respecto a una población de referencia de la misma edad y género. Por ejemplo, si un niño está en el
-            percentil 50, significa que su altura o peso está en la media, es decir, que aproximadamente el 50% de
-            los niños de su misma edad y género tienen un tamaño similar o menor, mientras que el otro 50% es mayor.
-            El percentil +3 representa un nivel de crecimiento superior, donde solo un pequeño porcentaje de la
-            población tiene un tamaño mayor. En cambio, el percentil -3 indica un nivel de crecimiento menor al de
-            la mayoría, con solo unos pocos niños de su edad y género siendo más pequeños.
-          </p>
+        <p>
+          En el gráfico, los <strong>percentiles</strong> muestran cómo se compara el crecimiento de tu hijo con el de otros niños de la misma edad y género. 
+          <br />
+          <span style={{ color: 'blue', fontWeight: 'bold' }}>La línea azul</span> representa el crecimiento de tu hijo. 
+          Si su línea coincide con el <span style={{ color: 'green', fontWeight: 'bold' }}>percentil 0</span>, significa que su crecimiento está en el promedio, es decir, que aproximadamente la mitad de los niños tienen un tamaño similar o menor, y la otra mitad es mayor. 
+          <br />
+          Los <span style={{ color: 'red', fontWeight: 'bold' }}>percentiles +2 y -2</span> (en rojo) indican niveles ligeramente por encima o por debajo del promedio.
+          <br />
+          Los <span style={{ color: 'black', fontWeight: 'bold' }}>percentiles +3 y -3</span> (en negro) representan extremos: un crecimiento superior o inferior al de la mayoría de los niños. Solo un pequeño porcentaje de niños estaría por encima del <span style={{ color: 'black', fontWeight: 'bold' }}>+3</span> o por debajo del <span style={{ color: 'black', fontWeight: 'bold' }}>-3</span>.
+        </p>
         </div>
         <div class="parrafo">
           <h3>Tabla de valoras de nuestro hijo</h3>

@@ -6,8 +6,11 @@ function Psicomotor() {
     return (
 
         <div class="contenedor">
-            <div class = "grafico"><MilestonesChart /></div>
+            <div class = "grafico">
+                <MilestonesChart />
+            </div>
             <div class="lado-derecho">
+                <h1>Grafico Psicomotor</h1>
                 <div class="ejemplo"><ReferenceGraphic /></div>
                 <div class="parrafo">
                     <table border="1">
