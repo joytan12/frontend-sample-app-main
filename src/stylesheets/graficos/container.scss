@@ -42,9 +42,9 @@
 .dropdown {
   position: absolute;
   top: 10px; // Ajusta según la altura de la navbar
-  right: 20px; // Espaciado desde el borde derecho
+  left: 20px; // Espaciado desde el borde derecho
   z-index: 1000; // Asegúrate de que esté sobre otros elementos
-  background-color: white; // Fondo blanco
+  background-color: $primary-color; // Fondo blanco
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Sombra para destacar el dropdown
