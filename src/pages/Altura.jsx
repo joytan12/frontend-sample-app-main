@@ -114,13 +114,13 @@ function Altura() {
 const data2 = {
   max: 55,
   min: 100,
-  labels: ['6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16'], // Meses de edad
-  percentile3: [75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95],   // Percentil +3
-  percentile2: [73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93],   // Percentil +2
-  percentile0: [70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90],   // Percentil 0
-  percentileMinus2: [68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88], // Percentil -2
-  percentileMinus3: [65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85], // Percentil -3
-  hijo: [72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92] // Alturas reales del segundo hijo en cada mes
+  labels: ['6', '7', '8', '9', '10', '11', '12', '13', '14'], // Meses de edad
+  percentile3: [75, 77, 79, 81, 83, 85, 87, 89, 91],   // Percentil +3
+  percentile2: [73, 75, 77, 79, 81, 83, 85, 87, 89],   // Percentil +2
+  percentile0: [70, 72, 74, 76, 78, 80, 82, 84, 86],   // Percentil 0
+  percentileMinus2: [68, 70, 72, 74, 76, 78, 80, 82, 84], // Percentil -2
+  percentileMinus3: [65, 67, 69, 71, 73, 75, 77, 79, 81], // Percentil -3
+  hijo: [72, 74, 76, 78, 80, 82, 84, 86, 88] // Alturas reales del segundo hijo en cada mes
 };
 
 
