@@ -17,17 +17,20 @@ export const HomePage = () => {
         height: '70vh'
       }}
     >
-      <h1 class="titulo">Seguimiento del Desarrollo Infantil</h1>
-      <h2 class="texto">
-      Bienvenido a nuestra plataforma, diseñada para acompañarte en cada etapa del crecimiento de tu hijo.
-      Proporcionamos herramientas visuales y prácticas que te ayudarán a entender su desarrollo y a tomar decisiones informadas 
-      para su bienestar.<br></br>
-      ¡Descubre el poder de cuidar y crecer juntos!
-      </h2>
-      <div className="buttons">
-        <button className='button'>Avance Psicomotor</button>
-        <button className='button'>Gráficos de Altura</button>
+      <div class="box">
+        <h1 class="titulo">Seguimiento del Desarrollo Infantil</h1>
+        <h2 class="texto">
+        Bienvenido a nuestra plataforma, diseñada para acompañarte en cada etapa del crecimiento de tu hijo.
+        Proporcionamos herramientas visuales y prácticas que te ayudarán a entender su desarrollo y a tomar decisiones informadas 
+        para su bienestar.<br></br>
+        ¡Descubre el poder de cuidar y crecer juntos!
+        </h2>
+        <div className="buttons">
+          <button className='button'>Avance Psicomotor</button>
+          <button className='button'>Gráficos de Altura</button>
+        </div>
       </div>
+
     </div>
   )
 }

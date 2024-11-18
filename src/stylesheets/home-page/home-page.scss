@@ -15,29 +15,39 @@
 
 .button {
   font-size: 1.5vw;
-  padding: 10px 20px;
-  width: 20%;
-  height: 70px;
+  padding: 10px 10px;
+  width: 30%;
+  height: 9%;
   background-color: $primary-color;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin: auto;
 
   &:hover {
     transform: scale(1.05);
     background-color: $button-hover-color;
   }
 }
+
 .titulo {
   color: $button-hover-color;
   font-size: 2.3vw;
-  width: 41%;
+  width: 90%;
 }
 .texto{
   margin-top: 40px;
   font-size: 1.55vw;
-  width: 41%;
+  width: 90%;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.8); // Fondo blanco con opacidad
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra para destacar el texto
+  padding: 20px; // Espaciado interno
+  border-radius: 10px; // Bordes redondeados
+  max-width: 45%; // Limita el ancho del contenedor
 }
 
