@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import MilestonesChart from './MilestonesChart';
 import ReferenceGraphic from './ReferencieGraphic';
 
 function Psicomotor() {
+    const [selectedChild, setSelectedChild] = useState(1);
+
+    const valoresPromedio = [0, 0, 0, 0, 5, 4]; 
+
+    const handleChildSelection = (child) => {
+        setSelectedChild(child);
+    };
+
     return (
 
         <div class="contenedor">
+            {/* <div class = "grafico">
+                <MilestonesChart promedioData={valoresPromedio}/>
+            </div> */}
             <div class = "grafico">
-                <MilestonesChart />
+                <div>
+                    <button onClick={() => handleChildSelection(1)}>Juan</button>
+                    <button onClick={() => handleChildSelection(2)}>Laura</button>
+                </div>
+                {selectedChild === 1 ? (
+                    <MilestonesChart promedioData={valoresPromedio}/>
+                ) : (
+                    <MilestonesChart />
+                )}  
             </div>
             <div class="lado-derecho">
                 <h1>Grafico Psicomotor</h1>

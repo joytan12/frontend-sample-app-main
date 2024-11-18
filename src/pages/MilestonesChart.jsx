@@ -5,7 +5,7 @@ import { Bar, Scatter } from 'react-chartjs-2';
 // Registrar componentes
 ChartJS.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, Title, Tooltip, Legend);
 
-const MilestonesChart = () => {
+const MilestonesChart = ( { promedioData = [15, 11, 10, 8, 7, 6]} ) => {
   // Datos de los hitos motores con su promedio, mínimo y máximo
   const data = {
     labels: [
@@ -19,7 +19,7 @@ const MilestonesChart = () => {
     datasets: [
       {
         label: 'Rango', // Representa el rango sombreado entre mínimo y máximo
-        data: [15, 11, 10, 8, 7, 6],
+        data: promedioData,
         backgroundColor: 'rgba(136, 132, 216, 0.2)',
         barThickness: 20,
         borderRadius: 5,
@@ -43,7 +43,7 @@ const MilestonesChart = () => {
       {
         label: 'Edad a la que lo logró', // Punto central para el promedio
         type: 'scatter',
-        data: [15, 11, 10, 8, 7, 6], // Edad promedio
+        data: promedioData, // Edad promedio
         pointBackgroundColor: '#0000ff',
         pointRadius: 6,
         showLine: false,
