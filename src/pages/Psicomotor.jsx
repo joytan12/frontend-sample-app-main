@@ -86,16 +86,15 @@ function Psicomotor() {
     };
 
     return (
-
         <div class="contenedor">
-            {/* <div class = "grafico">
-                <MilestonesChart promedioData={valoresPromedio}/>
-            </div> */}
+            <div className="dropdown">
+            <label htmlFor="childSelector">Selecciona un niño:</label>
+            <select id="childSelector" onChange={handleChildSelection}>
+                <option value="1">Juan</option>
+                <option value="2">Laura</option>
+            </select>
+            </div>
             <div class = "grafico">
-                <div>
-                    <button onClick={() => handleChildSelection(1)}>Juan</button>
-                    <button onClick={() => handleChildSelection(2)}>Laura</button>
-                </div>
                 {selectedChild === 1 ? (
                     <MilestonesChart promedioData={valoresPromedio}/>
                 ) : (
