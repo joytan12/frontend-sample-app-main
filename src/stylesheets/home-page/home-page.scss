@@ -15,8 +15,8 @@
 
 .button {
   font-size: 1.5vw;
-  padding: 10px 10px;
-  width: 30%;
+  padding: 15px 20px;
+  width: 35%;
   height: 9%;
   background-color: $primary-color;
   color: white;
@@ -25,6 +25,7 @@
   cursor: pointer;
   transition: background-color 0.3s;
   margin: auto;
+  text-align: center;
 
   &:hover {
     transform: scale(1.05);

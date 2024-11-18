@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from '../pages/home_page'
 import NavBar from '../components/nav_bar'
+import Altura from '../pages/Altura'
+import Psicomotor from '../pages/Psicomotor'
 
 const Layout = () => {
   return (
@@ -12,6 +14,8 @@ const Layout = () => {
         <div className='layout__page'>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/Altura' element={<Altura />} />
+            <Route path='/Psicomotor' element={<Psicomotor />} />
           </Routes>
         </div>
       </div>

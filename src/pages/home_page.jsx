@@ -1,5 +1,7 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import bgImage from '../assets/bgimage.png'
+
 import '../stylesheets/home-page/home-page.scss';
 
 export const HomePage = () => {
@@ -26,11 +28,14 @@ export const HomePage = () => {
         ¡Descubre el poder de cuidar y crecer juntos!
         </h2>
         <div className="buttons">
-          <button className='button'>Avance Psicomotor</button>
-          <button className='button'>Gráficos de Altura</button>
+          <NavLink to="/Psicomotor" className="button">
+            Avance Psicomotor
+          </NavLink>
+          <NavLink to="/Altura" className="button">
+            Gráficos de Altura
+          </NavLink>
         </div>
       </div>
-
     </div>
   )
 }
