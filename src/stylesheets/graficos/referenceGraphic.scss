@@ -1,0 +1,81 @@
+.reference-graphic {
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .bar-container {
+    position: relative;
+    width: 80%;
+  }
+  
+  .bar {
+    position: relative;
+    height: 8px;
+    background-color: #e6e6ff;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .min-point,
+  .achieved-point,
+  .max-point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #6b5b95;
+    border-radius: 50%;
+    top: -2px;
+  }
+  
+  .min-point {
+    left: 10%; /* Representa la posición mínima */
+    background-color: #999;
+  }
+  
+  .achieved-point {
+    left: 50%; /* Representa la posición lograda */
+    background-color: blue;
+  }
+  
+  .max-point {
+    left: 90%; /* Representa la posición máxima */
+    background-color: #999;
+  }
+  
+  .labels {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .label-min,
+  .label-achieved,
+  .label-max {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .label-min {
+    left: 0;
+    transform: translateX(-50%);
+  }
+  
+  .label-achieved {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .label-max {
+    right: 0;
+    transform: translateX(50%);
+  }
+  

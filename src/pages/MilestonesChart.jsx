@@ -25,7 +25,7 @@ const MilestonesChart = () => {
         borderRadius: 5,
       },
       {
-        label: 'Min años',
+        label: 'Min meses',
         type: 'scatter',
         data: [8, 8, 6, 5, 4, 4], // Valores mínimos
         pointBackgroundColor: 'rgba(136, 132, 216, 0.6)',
@@ -33,7 +33,7 @@ const MilestonesChart = () => {
         showLine: false,
       },
       {
-        label: 'Max años',
+        label: 'Max meses',
         type: 'scatter',
         data: [18, 18, 16, 13, 12, 9], // Valores máximos
         pointBackgroundColor: 'rgba(136, 132, 216, 0.6)',
