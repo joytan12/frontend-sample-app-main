@@ -12,7 +12,7 @@ const TablaValores1 = () => {
         </tr>
         <tr>
             <td>Caminar solo</td>
-            <td>15</td>
+            <td>14</td>
         </tr>
         <tr>
             <td>De pie sin apoyo</td>
@@ -115,7 +115,7 @@ function Psicomotor() {
                     <TablaValores1 />
                 )}  
                 </div>
-                <p style={{ color: 'red', fontWeight: 'bold' }}>Si los datos en la tabla son 0, es que no se ha logrado aún.</p>
+                <p style={{ color: 'red', fontWeight: 'bold', marginLeft: '40px' }}>Si los datos en la tabla son 0, es que no se ha logrado aún.</p>
             </div>
         </div>
         

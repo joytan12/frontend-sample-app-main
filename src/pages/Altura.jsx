@@ -3,7 +3,7 @@ import GrowthChart from './GrowthChart'; // Asegúrate de que tu componente Grow
 
 const TablaValores1 = () => {
   return (
-    <div>
+    <div className='tabla'>
       <table border="1">
         <thead>
           <tr>
@@ -48,7 +48,7 @@ const TablaValores1 = () => {
 
 const TablaValores2 = () => {
   return (
-    <div>
+    <div className='tabla'>
       <table border="1">
         <tr>
           <th>Altura</th>
@@ -90,14 +90,6 @@ const TablaValores2 = () => {
           <td>88</td>
           <td>14</td>
         </tr>
-        <tr>
-          <td>90</td>
-          <td>15</td>
-        </tr>
-        <tr>
-          <td>92</td>
-          <td>16</td>
-        </tr>
       </table>
     </div>
   );
@@ -137,7 +129,6 @@ const data2 = {
   };
 
   return (
-
     <div class="contenedor">
         <div className="dropdown">
           <label htmlFor="childSelector">Selecciona un niño:</label>
