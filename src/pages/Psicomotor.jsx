@@ -106,7 +106,7 @@ function Psicomotor() {
                 )}  
             </div>
             <div class="lado-derecho">
-                <h1>Grafico Psicomotor</h1>
+                <h1 class="titulo_grafico">Grafico Psicomotor</h1>
                 <div class="ejemplo"><ReferenceGraphic /></div>
                 <div class="parrafo">
                 {selectedChild === 1 ? (
