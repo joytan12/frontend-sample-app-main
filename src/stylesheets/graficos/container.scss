@@ -1,4 +1,5 @@
 .contenedor {
+  background-color: #edfbff;
   display: grid;
   grid-template-columns: 66% 33%; /* Gráfico: 66%, Lado derecho: 33% */
   grid-template-rows: 10% 90%;
@@ -8,6 +9,7 @@
 }
 
 .grafico {
+  margin-right: 30px;
   grid-column: 1; /* Primera columna */
   grid-row: 1 / span 2; /* Ocupa ambas filas */
   // background-color: #d1e7dd; /* Fondo para visualizar */
@@ -15,6 +17,7 @@
   justify-content: center;
   align-items: center;
   padding-right: 25px;
+  background-color: #ffffff;
 }
 
 .lado-derecho {
@@ -35,26 +38,37 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
+  padding-top: 20px;
   margin-top: auto;
 }
 
 .parrafo {
-  // background-color: #f8d7fb; /* Fondo para visualizar */
+
   display: grid;
   justify-content: center;
   align-items: center;
   height: 80%;
-  padding: 40px;
-  margin-top: 30px;
+  padding: 0;
+  margin-top: -40px;
+}
+
+.parrafo1 {
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  padding: 0;
+  margin-top: 40px;
 }
 
 .dropdown {
   position: absolute;
-  top: 10px; // Ajusta según la altura de la navbar
-  left: 20px; // Espaciado desde el borde derecho
+  top: 20px; // Ajusta según la altura de la navbar
+  left: 50px; // Espaciado desde el borde derecho
   z-index: 1000; // Asegúrate de que esté sobre otros elementos
   background-color: $primary-color; // Fondo blanco
+  transform: scale(1.2);
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Sombra para destacar el dropdown

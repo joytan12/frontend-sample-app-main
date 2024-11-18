@@ -34,10 +34,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
+    padding-left: 10px;
     height: 70px;
     overflow: hidden;
-    border-radius: 10%; 
+    border-radius: 5px; 
 
     &:hover {
       background-color: #2d8bb0; 
@@ -48,5 +48,19 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 100%;
+  }
+  .flecha {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+    transform: rotate(180deg);
+  }
+  .textoflecha {
+    text-align: center;
+    width: 220px;
+    color: #ffffff;
+  }
+  .link{
+    text-decoration: none;
   }
 }

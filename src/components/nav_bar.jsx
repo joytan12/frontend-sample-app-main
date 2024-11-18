@@ -19,7 +19,19 @@ const NavBar = () => {
     return null; // No mostrar el botón en otras páginas
   };
 
+  // Determinar el nombre de la página destino
+  const getDestinationName = () => {
+    if (location.pathname === '/Altura') {
+      return 'Avance Psicomotor';
+    }
+    if (location.pathname === '/Psicomotor') {
+      return 'Gráfico de Altura';
+    }
+      return '';
+    };
+
   const arrowDestination = getArrowDestination();
+  const destinationName = getDestinationName();
 
   return (
     <nav className="nav-bar">
@@ -37,9 +49,10 @@ const NavBar = () => {
 
       {/* Botón Arrow dinámico */}
       {arrowDestination && (
-        <Link to={arrowDestination}>
+        <Link className='link' to={arrowDestination}>
           <div className="nav-bar__image">
-            <img src={arrow} alt="Arrow Icon" />
+            <h1 className='textoflecha'>{destinationName}</h1>
+            <img src={arrow} alt="Arrow Icon"className='flecha' />
           </div>
         </Link>
       )}
