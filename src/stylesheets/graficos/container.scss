@@ -9,7 +9,6 @@
 }
 
 .grafico {
-  margin-right: 30px;
   grid-column: 2; /* Primera columna */
   grid-row: 1 / span 2; /* Ocupa ambas filas */
   // background-color: #d1e7dd; /* Fondo para visualizar */
@@ -17,12 +16,14 @@
   justify-content: center;
   align-items: center;
   padding-right: 25px;
+  padding-left: 25px;
   background-color: #ffffff;
 }
 
 .lado-derecho {
   padding-left: 30px;
-  padding-top: 50px;
+  padding-right: 30px;
+  padding-top: 40px;
   display: grid;
   grid-template-rows: 0.1fr 0.1fr; /* Divide el lado derecho en dos filas iguales */
   grid-column: 1; /* Segunda columna */
@@ -40,7 +41,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  padding-top: 90px;
+  padding-top:70px;
+  padding-bottom:20px;
   margin-top: auto;
 }
 
