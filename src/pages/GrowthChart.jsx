@@ -74,7 +74,7 @@ const GrowthChart = ({ data }) => {
       y: {
         title: {
           display: true,
-          text: 'Altura (cm)',
+          text: 'Altura (Centímetros)',
         },
         min: data.min,
         max: data.max,
