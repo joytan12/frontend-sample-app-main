@@ -7,7 +7,7 @@ const TablaValores1 = () => {
       <table border="1">
         <thead>
           <tr>
-            <th>Altura</th>
+            <th>Altura (Centímetros)</th>
             <th>Edad (Meses)</th>
           </tr>
         </thead>
@@ -51,7 +51,7 @@ const TablaValores2 = () => {
     <div className='tabla'>
       <table border="1">
         <tr>
-          <th>Altura</th>
+          <th>Altura (Centímetros)</th>
           <th>Edad (Meses)</th>
         </tr>
         <tr>
