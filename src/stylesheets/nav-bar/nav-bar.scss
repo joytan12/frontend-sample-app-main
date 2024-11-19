@@ -38,6 +38,8 @@
     height: 70px;
     overflow: hidden;
     border-radius: 5px; 
+    background-color: #E0F7FA;
+
 
     &:hover {
       background-color: #2d8bb0; 
@@ -54,11 +56,12 @@
     max-height: 100%;
     border-radius: 100%;
     transform: rotate(180deg);
+    filter: invert(1);
   }
   .textoflecha {
     text-align: center;
     width: 220px;
-    color: #ffffff;
+    color: #333333;
   }
   .link{
     text-decoration: none;
