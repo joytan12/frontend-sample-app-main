@@ -74,7 +74,7 @@ const MilestonesChart = ( { promedioData = [15, 11, 10, 8, 7, 6]} ) => {
       },
       y: {
         title: {
-          display: true,
+          display: false,
           text: 'Avance Psicomotor'
         }
       }

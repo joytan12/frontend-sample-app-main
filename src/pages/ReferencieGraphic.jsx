@@ -12,7 +12,7 @@ const ReferenceGraphic = () => {
         <div className="labels">
           <div className="label-min">representa la edad mínima a la que debió lograrlo</div>
           <div className="label-achieved">representa la edad a la que lo logró</div>
-          <div className="label-max">representa la edad máxima en la que debe lograrlo para estar</div>
+          <div className="label-max">representa la edad máxima en la que debe lograrlo</div>
         </div>
       </div>
     </div>
